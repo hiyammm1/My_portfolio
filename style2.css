@@ -234,7 +234,7 @@ nav ul li a:hover::after {
   
 }
 .projects-wrapper::-webkit-scrollbar {
-  display: none; /* Hide the scrollbar */
+  display: none; 
 }
 
 .project {
@@ -407,5 +407,8 @@ nav .fas {
   }
   .education-list div p {
     left: -3;
+  }
+  #my-projects{
+    margin-left:100px;  
   }
 }
