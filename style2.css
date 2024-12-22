@@ -14,7 +14,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url("img/images.jpeg");
+  background-image: url("https://storage.photofinale.com/storage/8.0/photo.aspx?photo=988093918&size=240&m=133793335975060652&x=H1AOQNi1FK4pM66qtjhqfsqHI99NlLBh");
   background-size: cover;
   background-position: center;
 }
@@ -209,15 +209,14 @@ nav ul li a:hover::after {
   transition: 0.3s;
 }
 /*-------------------------------------- projects ------------------------------------------*/
-#my-projects{
-  margin-left:200px;  
+#my-projects {
+  margin-left: 200px;
 }
 .projects-container {
   padding: 50px 0;
-  
 }
 
-.projects-container h2 { 
+.projects-container h2 {
   margin-bottom: 30px;
   font-size: 50px;
   font-weight: 600;
@@ -230,18 +229,16 @@ nav ul li a:hover::after {
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 10px;
- 
-  
 }
 .projects-wrapper::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 .project {
   position: relative;
   min-width: 300px;
   height: 200px;
-  background: #262626;;
+  background: #262626;
   border: 1px solid #181414;
   border-radius: 10px;
   overflow: hidden;
@@ -262,8 +259,8 @@ nav ul li a:hover::after {
   justify-content: center;
   align-items: center;
 }
-.project-content h6{
-  color: #ff004f; 
+.project-content h6 {
+  color: #ff004f;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
@@ -293,7 +290,6 @@ nav ul li a:hover::after {
 .project:hover .description {
   opacity: 0;
 }
-
 
 /*፟-------------contact---------------*/
 .contactme p {
@@ -337,7 +333,7 @@ nav .fas {
 }
 @media only screen and (max-width: 700px) {
   #header {
-    background-image: url(img/33333.jpg);
+    background-image: url(https://storage.photofinale.com/storage/8.0/photo.aspx?photo=988093916&size=240&m=133793335972434397&x=cUrhGO8asgiBpoLH9FNLAzPTpci1Me3e);
   }
   .header-text {
     margin-top: 70%;
@@ -408,7 +404,7 @@ nav .fas {
   .education-list div p {
     left: -3;
   }
-  #my-projects{
-    margin-left:100px;  
+  #my-projects {
+    margin-left: 100px;
   }
 }
