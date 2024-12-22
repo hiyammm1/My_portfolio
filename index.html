@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0" >
         <title>portfolio</title>
+        <link rel="icon" href="img/icon.png" type="image/x-icon">
         <link rel="stylesheet"  href="style2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
         </head>
@@ -111,10 +112,40 @@
                            </div>
 
                     </div>
-                    <a href="result.pdf" class="btn btn1">see more</a>
                 </div>
 
              </section>
+             <!-- projects -->
+             <section  id="my-projects">
+                <div class="projects-container">
+                    <h2 >My Projects</h2>
+                   <div class="projects-wrapper" >
+                    <div class="project" >
+                        <div class="project-content">
+                            <h6>Project 1:</h6>
+                          <p class="description">my portfolio</p>
+                          <img src="img/myproject1.png" alt="Project 1" class="project-image">
+                        </div>
+                      </div>
+                      <div class="project" onclick="openProject('https://stirring-llama-cad93a.netlify.app/#/')">
+                        <div class="project-content">
+                            <h6>Project 2:</h6>
+                          <p class="description">A fan site for Rick and Morty 
+                            with details about 
+                            episodes, characters, and locations.</p>
+                          <img src="img/myproject.png" alt="Project 1" class="project-image">
+                        </div>
+                      </div>
+                      <div class="project">
+                        <div class="project-content">
+                            <p class="description">upcoming projects</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+             </section>
+
              <!---------------contact------------------------->
              <section id="contact">
                 <div class="container">
@@ -180,7 +211,12 @@
                     sidemenu.style.right="-200px";
                 }
             </script>
-       
+       <script>
+        function openProject(url) {
+  window.open(url, '_blank');
+}
+
+       </script>
 
 
         </body>
